@@ -10,7 +10,7 @@ const Footer = () => {
     viewport={{ once: false }}
       className="bg-black text-white py-10 px-6"
     >
-      <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div>
           <h4 className="text-red-500 mb-2">Services</h4>
           <LinkMotion href="#">Développement web</LinkMotion>
@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div className="flex items-center justify-center md:justify-end text-center md:text-right text-sm text-white">
           <LinkMotion href="#">
-            © {new Date().getFullYear()} EvoTech African. <br className="block sm:hidden" /> Tous droits réservés.
+            © {new Date().getFullYear()} EvoTech African. <br className="block sm:hidden" />Tous droits réservés.❤️
           </LinkMotion>
         </div>
       </div>
