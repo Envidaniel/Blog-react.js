@@ -19,7 +19,7 @@ const Header = () => {
             className="text-2xl p-5 text-red-600 dark:text-red-500 font-bold hover:text-red-800 dark:hover:text-amber-700 transition duration-200"
           >
             <span>EvoTech</span>{' '}
-            <span className="text-black dark:text-white">Blog</span>
+            <span className="text-black dark:text-white">African</span>
           </Link>
         </div>
 
